@@ -1,0 +1,11 @@
+name: autotests
+
+on:
+  push
+
+jobs:
+  test:
+  runs-on:   ubuntu-latest
+
+  steps:
+    - name: check_repo
